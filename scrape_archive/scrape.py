@@ -8,29 +8,30 @@ import re
 import functioncache
 
 URLS = [
-    'https://web.archive.org/web/20140809062217/http://dwiel.net/',
-    'https://web.archive.org/web/20131103095441/http://dwiel.net/page/2/',
-    'https://web.archive.org/web/20100806193852/http://dwiel.net/page/3/',
-    'https://web.archive.org/web/20131103151226/http://dwiel.net/blog/category/howto/',
-    'https://web.archive.org/web/20131102232007/http://dwiel.net/blog/category/axpress/',
-    'https://web.archive.org/web/20131103054625/http://dwiel.net/blog/category/bug-fix/',
-    'https://web.archive.org/web/20131103195106/http://dwiel.net/blog/category/house/ceb-press/',
-    'https://web.archive.org/web/20131103115437/http://dwiel.net/blog/category/code/',
-    'https://web.archive.org/web/20131103144836/http://dwiel.net/blog/category/data-exploration/',
-    'https://web.archive.org/web/20131103052531/http://dwiel.net/blog/category/family/',
-    'https://web.archive.org/web/20131103052531/http://dwiel.net/blog/category/food/',
-    'https://web.archive.org/web/20131103052531/http://dwiel.net/blog/category/house/foundation/',
-    'https://web.archive.org/web/20131103052531/http://dwiel.net/blog/category/fyi/',
-    'https://web.archive.org/web/20131103052531/http://dwiel.net/blog/category/howto/',
-    'https://web.archive.org/web/20131103052531/http://dwiel.net/blog/category/linux/',
-    'https://web.archive.org/web/20131103052531/http://dwiel.net/blog/category/music/',
-    'https://web.archive.org/web/20131103052531/http://dwiel.net/blog/category/house/',
-    'https://web.archive.org/web/20131103052531/http://dwiel.net/blog/category/politics/',
-    'https://web.archive.org/web/20131103052531/http://dwiel.net/blog/category/reflection/',
-    'https://web.archive.org/web/20131103052531/http://dwiel.net/blog/category/code/script/',
-    'https://web.archive.org/web/20131103052531/http://dwiel.net/blog/category/uncategorized/',
-    'https://web.archive.org/web/20131103052531/http://dwiel.net/blog/category/house/windows/',
-    'https://web.archive.org/web/20131103134101/http://dwiel.net/axpress/',
+    # 'https://web.archive.org/web/20140809062217/http://dwiel.net/',
+    # 'https://web.archive.org/web/20131103095441/http://dwiel.net/page/2/',
+    # 'https://web.archive.org/web/20100806193852/http://dwiel.net/page/3/',
+    # 'https://web.archive.org/web/20131103151226/http://dwiel.net/blog/category/howto/',
+    # 'https://web.archive.org/web/20131102232007/http://dwiel.net/blog/category/axpress/',
+    # 'https://web.archive.org/web/20131103054625/http://dwiel.net/blog/category/bug-fix/',
+    # 'https://web.archive.org/web/20131103195106/http://dwiel.net/blog/category/house/ceb-press/',
+    # 'https://web.archive.org/web/20131103115437/http://dwiel.net/blog/category/code/',
+    # 'https://web.archive.org/web/20131103144836/http://dwiel.net/blog/category/data-exploration/',
+    # 'https://web.archive.org/web/20131103052531/http://dwiel.net/blog/category/family/',
+    # 'https://web.archive.org/web/20131103052531/http://dwiel.net/blog/category/food/',
+    # 'https://web.archive.org/web/20131103052531/http://dwiel.net/blog/category/house/foundation/',
+    # 'https://web.archive.org/web/20131103052531/http://dwiel.net/blog/category/fyi/',
+    # 'https://web.archive.org/web/20131103052531/http://dwiel.net/blog/category/howto/',
+    # 'https://web.archive.org/web/20131103052531/http://dwiel.net/blog/category/linux/',
+    # 'https://web.archive.org/web/20131103052531/http://dwiel.net/blog/category/music/',
+    # 'https://web.archive.org/web/20131103052531/http://dwiel.net/blog/category/house/',
+    # 'https://web.archive.org/web/20131103052531/http://dwiel.net/blog/category/politics/',
+    # 'https://web.archive.org/web/20131103052531/http://dwiel.net/blog/category/reflection/',
+    # 'https://web.archive.org/web/20131103052531/http://dwiel.net/blog/category/code/script/',
+    # 'https://web.archive.org/web/20131103052531/http://dwiel.net/blog/category/uncategorized/',
+    # 'https://web.archive.org/web/20131103052531/http://dwiel.net/blog/category/house/windows/',
+    # 'https://web.archive.org/web/20131103134101/http://dwiel.net/axpress/',
+    'https://web.archive.org/web/20131103052535/http://dwiel.net/projects/',
 ]
 
 def innerHTML(element):
@@ -56,10 +57,10 @@ def convert_a(el):
 def convert_img(img):
     src = img.get('src')
     newname = src.split('/')[-1]
-    # os.system('wget web.archive.org{src} -O {newname}'.format(
-    #     src=src,
-    #     newname=newname,
-    # ))
+    os.system('wget web.archive.org{src} -O {newname}'.format(
+        src=src,
+        newname=newname,
+    ))
     
     # src = extract_archive_url(src)
     
