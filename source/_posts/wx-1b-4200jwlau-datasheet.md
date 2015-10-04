@@ -1,4 +1,5 @@
 title: " WX-1B-4200J/WLAU Datasheet "
+date: 2013-01-01
 tags:
 - FYI
 ---

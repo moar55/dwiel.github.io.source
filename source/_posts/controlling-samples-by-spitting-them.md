@@ -1,4 +1,5 @@
 title: " Controlling Samples by Spitting Them "
+date: 2013-01-01
 tags:
 - Code
 - Music

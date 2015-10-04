@@ -1,4 +1,5 @@
 title: " The psychology of the Blue Man Group "
+date: 2013-01-01
 tags:
 - FYI
 ---

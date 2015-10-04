@@ -1,4 +1,5 @@
 title: " Single Instance Application with command line interface "
+date: 2013-01-01
 tags:
 - Code
 - Script

@@ -1,4 +1,5 @@
 title: " pickle.PicklingError: Function to be pickled has free variables that are referenced before assignment in enclosing scope "
+date: 2013-01-01
 tags:
 - Uncategorized
 ---

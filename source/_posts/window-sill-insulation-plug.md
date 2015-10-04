@@ -1,4 +1,5 @@
 title: " Window Sill Insulation Plug "
+date: 2013-01-01
 tags:
 - Windows
 - Our House

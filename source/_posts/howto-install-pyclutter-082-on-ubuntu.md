@@ -1,4 +1,5 @@
 title: " Howto install pyclutter 0.8.2 on Ubuntu "
+date: 2013-01-01
 tags:
 - Linux
 ---

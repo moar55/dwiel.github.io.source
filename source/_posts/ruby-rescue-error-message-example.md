@@ -1,4 +1,5 @@
 title: " ruby rescue error message example "
+date: 2013-01-01
 tags:
 - Code
 ---

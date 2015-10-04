@@ -1,4 +1,5 @@
 title: " Automatic Windows "
+date: 2013-01-01
 tags:
 - Windows
 - Our House

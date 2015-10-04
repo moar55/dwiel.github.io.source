@@ -1,4 +1,5 @@
 title: " First Look at the Foundation "
+date: 2013-01-01
 tags:
 - Foundation
 - Our House

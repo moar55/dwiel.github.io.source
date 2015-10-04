@@ -1,4 +1,5 @@
 title: " Howto Replace a Screen Invertor on a Dell Inspiron 1520 "
+date: 2013-01-01
 tags:
 - How to
 ---

@@ -1,4 +1,5 @@
 title: " Tip, CEB Blocks, Zipties "
+date: 2013-01-01
 tags:
 - CEB Press
 - Our House

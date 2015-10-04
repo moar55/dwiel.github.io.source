@@ -1,4 +1,5 @@
 title: " python-memcache is thread safe "
+date: 2013-01-01
 tags:
 - FYI
 ---

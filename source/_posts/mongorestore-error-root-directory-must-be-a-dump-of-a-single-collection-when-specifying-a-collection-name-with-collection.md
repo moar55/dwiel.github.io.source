@@ -1,4 +1,5 @@
 title: " mongorestore: ERROR: root directory must be a dump of a single collection when specifying a collection name with --collection "
+date: 2013-01-01
 tags:
 ---
 

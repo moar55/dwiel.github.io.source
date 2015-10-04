@@ -1,4 +1,5 @@
 title: " MySQL Permission Errors After Moving Datadir "
+date: 2013-01-01
 tags:
 - Code
 - FYI

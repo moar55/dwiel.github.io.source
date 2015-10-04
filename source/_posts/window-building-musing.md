@@ -1,4 +1,5 @@
 title: " Window Building Musing "
+date: 2013-01-01
 tags:
 - Windows
 - Our House

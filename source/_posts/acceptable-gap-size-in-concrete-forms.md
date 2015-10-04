@@ -1,4 +1,5 @@
 title: " Acceptable Gap Size in Concrete Forms "
+date: 2013-01-01
 tags:
 - Foundation
 - Our House

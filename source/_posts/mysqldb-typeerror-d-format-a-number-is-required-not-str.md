@@ -1,4 +1,5 @@
 title: " MySQLdb: TypeError: %d format: a number is required, not str "
+date: 2013-01-01
 tags:
 - Code
 ---

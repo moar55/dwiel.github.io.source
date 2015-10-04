@@ -1,4 +1,5 @@
 title: " Thermal Bridging in a CEB Dual Wall with Cavity Insulation and Buttresses "
+date: 2013-01-01
 tags:
 - Uncategorized
 ---

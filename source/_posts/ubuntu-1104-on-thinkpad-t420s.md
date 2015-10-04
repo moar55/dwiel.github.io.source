@@ -1,4 +1,5 @@
 title: " Ubuntu 11.04 on Thinkpad T420s "
+date: 2013-01-01
 tags:
 - FYI
 - Linux

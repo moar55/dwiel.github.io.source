@@ -1,4 +1,5 @@
 title: " Raspberry Pi Timelapse Camera "
+date: 2013-01-01
 tags:
 - Code
 ---

@@ -1,4 +1,5 @@
 title: " What species of wood should be used for bond beams, lintels, gringo blocks, etc. when building a CEB wall, if I don't want to treat the wood with chemicals? "
+date: 2013-01-01
 tags:
 - Uncategorized
 ---

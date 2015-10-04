@@ -1,4 +1,5 @@
 title: " python: parsing the output of datetime.isoformat() "
+date: 2013-01-01
 tags:
 - Code
 ---

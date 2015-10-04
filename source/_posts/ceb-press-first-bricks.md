@@ -1,4 +1,5 @@
 title: " CEB Press First Bricks "
+date: 2013-01-01
 tags:
 - CEB Press
 - Our House
