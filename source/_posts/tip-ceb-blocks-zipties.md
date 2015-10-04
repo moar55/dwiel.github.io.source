@@ -5,7 +5,7 @@ tags:
 ---
 
 
-I had a great meeting with [Tip](http://dwiel.net/tip), a nice day out in town and then pressed a few more bricks. One of the best parts of the meeting with Tip was his change of mind in the difficulty of building our own windows and doors. This was one of the last jobs that he didn't think we'd be able to do, and I feel confident now that we can do it, and that we can get exactly what we want by doing it that way.
+I had a great meeting with Tip, a nice day out in town and then pressed a few more bricks. One of the best parts of the meeting with Tip was his change of mind in the difficulty of building our own windows and doors. This was one of the last jobs that he didn't think we'd be able to do, and I feel confident now that we can do it, and that we can get exactly what we want by doing it that way.
 
 Also got some other questions answered by Tip, though it seems like there are always a million more. It seems like we are starting to gain the confidence in ourselves to not have to ask Tip about each and every detail.
 
