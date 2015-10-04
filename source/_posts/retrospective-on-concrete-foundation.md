@@ -14,7 +14,7 @@ Admittedly CO2 emissions aren't the only thing poluting the atmospehere so a com
 
 This has made me want to do a carbon footprint analysis of our entire house to see how it all compares. I've already done it with some things ... to be continued
 
-See Also: [The Carbon Footprint of Plastic](http://dwiel.net/blog/carbon-footprint-of-plastic/)
+See Also: [The Carbon Footprint of Plastic](/carbon-footprint-of-plastic/)
 
 Conversions:
 
