@@ -15,13 +15,13 @@ running "lsusb" shows the following line for my device: 0cf3:9271 Atheros Commun
 
 I tried a bunch of different compat-wireless versions and [this one](http://linuxwireless.org/download/compat-wireless-2.6/compat-wireless-2.6.tar.bz2) finally did it.  At the time, it was the latest stable release.  The daily snapshots were causing kernel panics ... Download it, decompress it and build it:
 
-$ tar xvf compat-wireless-2.6.38.2-2.tar.bz2
-$ cd compat-wireless-2.6.38.2-2
+$ tar xvf compat-wireless-2.6.tar.bz2
+$ cd compat-wireless-2012-05-10
 $ ./scripts/driver-select ath9k_htc
 $ sudo make
 $ sudo make install
 
-I had to download version 1.2 of htc_9271.fw the firmware from [here](http://wireless.kernel.org/download/htc_fw/) and copied the file to /lib/firmware.
+I had to download version 1.2 of htc_9271.fw the firmware from [here](http://linuxwireless.org/download/htc_fw/1.3/htc_9271.fw) and copied the file to /lib/firmware.
 
 I was getting wlan%d instead of something reasonable like wlan0. Running sudo ifconfig wlan%d showed me the mac address which I could use to add an entry to /etc/udev/rules.d/70-persistent-net.rules.  Heres the entry I added: (note that the browser adds newlines here, but you should add just two lines: one for the comment, and one for the rule)
 
