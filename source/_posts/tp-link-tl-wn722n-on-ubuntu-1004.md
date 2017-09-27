@@ -13,7 +13,7 @@ I had a lot of trouble getting this card to work.  Here is how I finally got it.
 I am running 2.6.32-30-generic-pae #59-Ubuntu SMP
 running "lsusb" shows the following line for my device: 0cf3:9271 Atheros Communications, Inc.
 
-I tried a bunch of different compat-wireless versions and [this one](http://www.orbit-lab.org/kernel/compat-wireless-2.6-stable/v2.6.38/compat-wireless-2.6.38.2-2.tar.bz2) finally did it.  At the time, it was the latest stable release.  The daily snapshots were causing kernel panics ... Download it, decompress it and build it:
+I tried a bunch of different compat-wireless versions and [this one](http://linuxwireless.org/download/compat-wireless-2.6/compat-wireless-2.6.tar.bz2) finally did it.  At the time, it was the latest stable release.  The daily snapshots were causing kernel panics ... Download it, decompress it and build it:
 
 $ tar xvf compat-wireless-2.6.38.2-2.tar.bz2
 $ cd compat-wireless-2.6.38.2-2
